@@ -14,7 +14,6 @@
     let bar = document.getElementsByClassName("ytp-right-controls")[0];
     let clock = document.createElement("span");
     clock.classList.add("ytp-time-display");
-    clock.innerText = "Toto";
 
     function clockTime() {
         var today = new Date();
